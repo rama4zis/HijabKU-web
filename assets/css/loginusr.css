@@ -1,0 +1,98 @@
+body {
+	background: url(../images/design3.jpg);
+	background-size: cover;
+	background-attachment: fixed; 
+	background-repeat: no-repeat;
+	margin:0px;
+	font-family: 'Ubuntu', sans-serif;
+	  background-size: 100%;
+  }
+  h1, h2, h3, h4, h5, h6, a {
+	margin:0px; padding:0;
+  }
+  .login {
+	margin:0 auto;
+	max-width:400px;
+  }
+  .login-header {
+	color:#fff;
+	text-align:center;
+	font-size:300%;
+  }
+   .login-header h1 {
+	 text-shadow: 0px 5px 15px #000; 
+  }
+  .login-form {
+	border:.5px solid #fff;
+	background: #eeecec;
+	border-radius:10px;
+	box-shadow:0px 0px 10px #000;
+  }
+  .login-form h3 {
+	text-align:left;
+	margin-left:40px;
+	columns: #000000;;
+  }
+  .login-form {
+	box-sizing:border-box;
+	padding-top:15px;
+	  padding-bottom:10%;
+	margin:5% auto;
+	text-align:center;
+  }
+  .login input[type="text"],
+  .login input[type="password"] {
+	max-width:400px;
+	  width: 80%;
+	line-height:3em;
+	font-family: 'Ubuntu', sans-serif;
+	margin:1em 2em;
+	border-radius:5px;
+	border:2px solid #000000;
+	outline:none;
+	padding-left:10px;
+  }
+  .btn-login {
+	background: -webkit-linear-gradient(right, #C3A18F, #f9daff);
+	border: none;
+	border-radius: 21px;
+	box-shadow: 0px 1px 8px #f9daff;
+	cursor: pointer;
+	color: white;
+	font-family: "Raleway SemiBold", sans-serif;
+	height: 42.3px;
+	margin: 0 auto;
+	margin-top: 5px;
+	transition: 0.25s;
+	width: 150px;
+  }
+  .btn-login:hover {
+	box-shadow: 0px 1px 18px #f9daff;
+  }
+  .sign-up {
+	color: #000000;
+	font-family: "Raleway", sans-serif;
+	font-size: 15px;
+	margin-top: 16px;
+	text-align: center;
+  }
+  .try-again {
+	color:#f2f2f2;
+	text-decoration:underline;
+	cursor:pointer;
+  }
+  
+  /*Media Querie*/
+  @media only screen and (min-width : 150px) and (max-width : 530px){
+	.login-form h3 {
+	  text-align:center;
+	  margin:0;
+	}
+	.sign-up, .no-access {
+	  margin:10px 0;
+	}
+	.login-button {
+	  margin-bottom:10px;
+	}
+  }
+  
